@@ -5,8 +5,8 @@
  */
 
 export interface IOtp {
-    otp: number;
-    identifier: any;
-    expires_in: Date;
-    status: 'used' | 'unuse';
+  otp: number;
+  identifier: any;
+  expires_in: Date;
+  status: 'used' | 'unuse';
 }

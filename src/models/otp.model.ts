@@ -7,10 +7,10 @@
 import { Schema, model } from 'mongoose';
 
 const OtpSchema = new Schema({
-    otp: 'number',
-    identifier: 'string',
-    expires_at: 'date',
-    status : 'string', //used, unuse
+  otp: 'number',
+  identifier: 'string',
+  expires_at: 'date',
+  status: 'string' // used, unuse
 });
 
 const OtpModel = model('otps', OtpSchema);
